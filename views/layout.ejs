@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BitID Open Protocol - Demonstration site</title> 
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>   
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="/login">Demonstration</a></li>
+          <li><a href="https://github.com/porkchop/bitid-js">GitHub</a></li>
+          <li><a href="https://github.com/bitid/bitid/blob/master/BIP_draft.md">BIP draft</a></li>
+          <% if(currentUser) { %>
+            <li><a href="/user"><%= currentUser.address %></a></li>
+          <% } %>
+        </ul>
+        <h3><a class="text-muted" style="text-decoration: none;" href="/">BitID-JS</a></h3>
+      </div>
+      <%- body %>
+    </div>  
+  </body>
+</html>

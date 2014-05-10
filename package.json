@@ -1,0 +1,40 @@
+{
+  "name": "bitid-js-demo",
+  "description": "Demo of the BitID protocol JavaScript library: https://github.com/porkchop/bitid-js",
+  "version": "0.0.1",
+  "author": {
+    "name": "Aaron Caswell",
+    "email": "aaron@captureplay.com",
+    "url": "https://github.com/porkchop"
+  },
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "bitid": "latest",
+    "express": "~3.4.8",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "express-partials": "0.2.0"
+  },
+  "keywords": [
+    "bitcoin",
+    "id",
+    "identity",
+    "identification",
+    "authentication",
+    "cryptocurrency",
+    "auth",
+    "bitid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/porkchop/bitid-js-demo"
+  },
+  "license": "MIT"
+}
