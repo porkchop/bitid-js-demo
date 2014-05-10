@@ -1,8 +1,11 @@
 # BitID JS demonstration
 
 Demo of the BitID protocol JavaScript library.
+
 Protocol: https://github.com/bitid/bitid
+
 JS Library: https://github.com/porkchop/bitid-js
+
 Demo: http://bitid-js-demo.herokuapp.com/
 
 ## Author
