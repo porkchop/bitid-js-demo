@@ -87,7 +87,7 @@ app.post('/callback', function(req, res) {
       var user = db.users.find(function(user) {return user.address === address;}) || db.users.create(address);
       nonce.uid = user.id;
 
-      res.json(201, {address: address, nonce: nonce.id});
+      res.json(200, {address: address, nonce: nonce.id});
     }
   }
 });
